@@ -2236,3 +2236,1243 @@ java.lang.Throwable: AWT events are not allowed inside write action: sun.awt.Pee
 2019-01-22 19:14:35 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
 2019-01-22 19:17:19 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
 2019-01-22 19:17:19 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:40:28 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2019-01-23 09:40:28 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.24 ----------
+
+2019-01-23 09:40:28 INFO  ApacheHttpClient.createAsyncHttpClient(132) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-23 09:40:28 INFO  ApacheHttpClient.<init>(90) - ApacheHttpClient проинстанциирован успешно.
+2019-01-23 09:40:31 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:40:31 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:40:32 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-23 09:40:32 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-23 09:40:32 INFO  ApacheHttpClient.login(235) - responseCode = 200
+2019-01-23 09:40:32 INFO  ApacheHttpClient.login(266) - JSESSIONID OK
+2019-01-23 09:40:32 INFO  ApacheHttpClient.refreshUserInfo(294) - responseCode = 200
+2019-01-23 09:40:32 INFO  ApacheHttpClient.refreshUserInfo(300) - Информация о пользователе получена.
+2019-01-23 09:40:32 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2019-01-23 09:40:32 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-23 09:40:48 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:40:48 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:40:50 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:40:53 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:40:53 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:40:55 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:40:55 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.error(124) - AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$393/1483084780@4e668ca8,notifier=null,catchExceptions=false,when=1548225649879] on dialog1
+java.lang.Throwable: AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$393/1483084780@4e668ca8,notifier=null,catchExceptions=false,when=1548225649879] on dialog1
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:134)
+	at com.intellij.openapi.application.impl.NoSwingUnderWriteAction.lambda$watchForEvents$0(NoSwingUnderWriteAction.java:36)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:374)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:188)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:239)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:264)
+	at com.javarush.plugin.panel.ConditionPanel.getConditionInnerPanel(ConditionPanel.java:64)
+	at com.javarush.plugin.panel.ConditionPanel.<init>(ConditionPanel.java:41)
+	at com.javarush.plugin.TestEditor.<init>(TestEditor.java:48)
+	at com.javarush.plugin.TestEditorProvider.createEditor(TestEditorProvider.java:66)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl4$8(FileEditorManagerImpl.java:856)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:670)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:683)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:961)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl3(FileEditorManagerImpl.java:781)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl2$4(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl2(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileWithProviders(FileEditorManagerImpl.java:694)
+	at com.intellij.openapi.fileEditor.ex.FileEditorManagerEx.openFile(FileEditorManagerEx.java:139)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener$WriteTaskTemplateAction.run(TaskInfoSelectorMouseListener.java:496)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1057)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.selectTask(TaskInfoSelectorMouseListener.java:130)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.mouseClicked(TaskInfoSelectorMouseListener.java:88)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6551)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1077)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:698)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:430)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1681)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1630)
+	at com.javarush.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:24)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:258)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:275)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:184)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:148)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:410)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(129) - IntelliJ IDEA 2018.3.3  Build #IC-183.5153.38
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(135) - JDK: 1.8.0_152-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(138) - OS: Mac OS X
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(142) - Plugin to blame: JavaRushHomeWork version: 3.24
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(149) - Last Action: TaskChooser
+2019-01-23 09:40:55 ERROR NoSwingUnderWriteAction.logErrorHeader(156) - Current Command: 
+2019-01-23 09:40:55 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:40:57 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:40:57 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:40:59 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:40:59 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:41:00 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:41:01 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:41:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:41:49 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:41:53 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:41:53 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:41:54 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:41:54 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:42:01 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:42:01 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:42:02 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:42:05 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:42:05 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:42:08 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:42:08 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:42:08 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:42:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:42:35 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:42:37 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:42:37 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:42:38 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:42:39 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:42:45 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:42:45 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:42:47 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:42:49 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:42:49 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:42:51 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:42:51 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:42:52 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:43:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:44:01 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:44:04 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:44:04 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:44:05 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:44:05 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:44:12 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:44:12 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:44:14 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:44:17 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:44:17 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:44:20 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:44:20 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:44:20 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:44:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:45:07 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:45:11 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:45:11 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:45:12 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:45:12 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:45:19 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:45:19 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:45:20 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:45:23 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:45:23 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:45:26 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:45:26 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:45:26 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:45:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:46:03 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:46:03 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:46:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:47:21 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:47:24 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:47:24 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:47:25 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:47:26 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:47:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:48:13 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:48:13 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:55:07 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:55:07 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:55:09 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:55:11 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:55:11 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:55:13 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:55:13 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:55:14 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:55:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:56:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:56:33 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:56:35 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:56:35 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:56:36 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 09:56:36 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 09:56:42 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:56:42 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 09:56:43 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 09:56:45 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:56:45 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:56:47 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 09:56:47 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 09:56:47 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 09:57:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:58:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 09:59:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:00:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:01:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:02:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:03:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:04:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:05:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:06:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:07:19 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:07:21 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:07:22 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:07:22 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:07:22 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:11:12 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:11:12 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 10:11:13 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 10:11:16 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:11:16 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:11:18 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:11:18 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:11:18 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:11:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:12:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:13:33 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:13:33 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:13:34 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:13:34 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:13:35 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:14:14 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:14:16 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:14:16 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:14:17 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:14:17 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:15:46 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:15:46 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 10:15:50 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 10:15:52 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:15:52 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:15:54 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:15:54 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:15:54 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:16:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:16:56 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:16:57 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:16:57 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:16:58 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:17:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:18:25 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:18:26 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:18:27 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:18:28 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:18:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:19:03 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:19:04 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:19:04 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:19:05 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:19:05 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:19:12 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:19:12 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 10:19:13 INFO  ApacheHttpClient.getTaskTemplateInfo(344) - responseCode = 200
+2019-01-23 10:19:16 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:19:16 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:19:17 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:19:17 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:19:18 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:19:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:20:25 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:20:26 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:20:26 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:20:27 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:20:32 INFO  ApacheHttpClient.sendEvent(523) - responseCode = 200
+2019-01-23 10:20:39 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:20:40 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:20:40 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:20:41 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:21:03 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:21:06 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:21:06 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:21:07 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-23 10:21:07 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:21:14 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-23 10:21:14 INFO  ApacheHttpClient.getFilteredTasks(327) - responseCode = 200
+2019-01-23 10:26:25 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:25 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:26:26 INFO  ApacheHttpClient.getTask(475) - responseCode = 200
+2019-01-23 10:38:18 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2019-01-23 10:38:18 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.24 ----------
+
+2019-01-23 10:38:18 INFO  ApacheHttpClient.createAsyncHttpClient(132) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-23 10:38:18 INFO  ApacheHttpClient.<init>(90) - ApacheHttpClient проинстанциирован успешно.
+2019-01-23 10:38:20 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-23 10:38:20 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-23 10:38:20 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-23 10:38:20 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-23 10:38:21 INFO  ApacheHttpClient.login(235) - responseCode = 200
+2019-01-23 10:38:21 INFO  ApacheHttpClient.login(266) - JSESSIONID OK
+2019-01-23 10:38:21 INFO  ApacheHttpClient.refreshUserInfo(294) - responseCode = 200
+2019-01-23 10:38:21 INFO  ApacheHttpClient.refreshUserInfo(300) - Информация о пользователе получена.
+2019-01-23 10:38:21 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2019-01-23 10:38:21 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-23 10:54:25 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2019-01-25 21:53:34 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+2019-01-25 21:53:34 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Version 3.24 ----------
+
+2019-01-25 21:53:34 INFO  ApacheHttpClient.createAsyncHttpClient(132) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-25 21:53:34 INFO  ApacheHttpClient.<init>(90) - ApacheHttpClient проинстанциирован успешно.
+2019-01-25 21:53:37 INFO  ApacheHttpClient.testConnection(190) - responseCode = 200
+2019-01-25 21:53:37 INFO  ApacheHttpClient.testConnection(201) - result = true
+2019-01-25 21:53:38 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-25 21:53:39 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-25 21:53:39 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-25 21:53:39 INFO  ApacheHttpClient.login(231) - Ожидание ответа сервера.
+2019-01-25 21:53:39 INFO  ApacheHttpClient.login(235) - responseCode = 200
+2019-01-25 21:53:39 INFO  ApacheHttpClient.login(266) - JSESSIONID OK
+2019-01-25 21:53:39 INFO  ApacheHttpClient.refreshUserInfo(294) - responseCode = 200
+2019-01-25 21:53:39 INFO  ApacheHttpClient.refreshUserInfo(300) - Информация о пользователе получена.
+2019-01-25 21:53:39 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2019-01-25 21:53:39 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-25 21:53:54 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-25 21:54:09 INFO  ApacheHttpClient.getWebResourceAsStream(490) - responseCode = 200
+2019-01-25 21:54:14 INFO  JavaRushTasksProjectComponent.projectClosing(165) - ---------- Project JavaRushTasks closed ----------
+
+2019-01-25 21:54:27 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Project JavaRushTasks opened ----------
+2019-01-25 21:54:27 INFO  JavaRushTasksProjectComponent.projectOpened(70) - ---------- Version 3.25 ----------
+
+2019-01-25 21:54:27 INFO  ApacheHttpClient.createAsyncHttpClient(130) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-25 21:54:27 INFO  ApacheHttpClient.<init>(88) - ApacheHttpClient проинстанциирован успешно.
+2019-01-25 21:54:29 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:54:29 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:54:30 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-25 21:54:30 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-25 21:54:30 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-25 21:54:31 INFO  ApacheHttpClient.login(237) - responseCode = 200
+2019-01-25 21:54:31 INFO  ApacheHttpClient.login(268) - JSESSIONID OK
+2019-01-25 21:54:31 INFO  ApacheHttpClient.refreshUserInfo(296) - responseCode = 200
+2019-01-25 21:54:31 INFO  ApacheHttpClient.refreshUserInfo(302) - Информация о пользователе получена.
+2019-01-25 21:54:31 INFO  ApacheHttpClient.startGA(33) - GAService запущен.
+2019-01-25 21:54:31 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-25 21:54:44 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:54:45 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-25 21:54:47 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-25 21:54:50 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:54:50 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:54:53 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:54:53 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.error(124) - AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$393/1778339639@694d735b,notifier=null,catchExceptions=false,when=1548442486845] on dialog0
+java.lang.Throwable: AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$393/1778339639@694d735b,notifier=null,catchExceptions=false,when=1548442486845] on dialog0
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:134)
+	at com.intellij.openapi.application.impl.NoSwingUnderWriteAction.lambda$watchForEvents$0(NoSwingUnderWriteAction.java:36)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:374)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:188)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:239)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:264)
+	at com.javarush.plugin.panel.ConditionPanel.getConditionInnerPanel(ConditionPanel.java:64)
+	at com.javarush.plugin.panel.ConditionPanel.<init>(ConditionPanel.java:41)
+	at com.javarush.plugin.TestEditor.<init>(TestEditor.java:48)
+	at com.javarush.plugin.TestEditorProvider.createEditor(TestEditorProvider.java:66)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl4$8(FileEditorManagerImpl.java:856)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:670)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:683)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:961)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl3(FileEditorManagerImpl.java:781)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl2$4(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl2(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileWithProviders(FileEditorManagerImpl.java:694)
+	at com.intellij.openapi.fileEditor.ex.FileEditorManagerEx.openFile(FileEditorManagerEx.java:139)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener$WriteTaskTemplateAction.run(TaskInfoSelectorMouseListener.java:496)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1057)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.selectTask(TaskInfoSelectorMouseListener.java:130)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.mouseClicked(TaskInfoSelectorMouseListener.java:88)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6551)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1077)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:698)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:430)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1681)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1630)
+	at com.javarush.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:24)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:258)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:275)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:184)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:148)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:410)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(129) - IntelliJ IDEA 2018.3.3  Build #IC-183.5153.38
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(135) - JDK: 1.8.0_152-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(138) - OS: Mac OS X
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(142) - Plugin to blame: JavaRushHomeWork version: 3.25
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(149) - Last Action: TaskChooser
+2019-01-25 21:54:53 ERROR NoSwingUnderWriteAction.logErrorHeader(156) - Current Command: 
+2019-01-25 21:54:53 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-25 21:54:56 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:54:56 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:54:58 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:54:58 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:55:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:55:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:55:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 21:55:43 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:55:44 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:55:45 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 21:55:45 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-25 21:55:46 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 21:55:53 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:55:54 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-25 21:55:55 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-25 21:55:58 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:55:58 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:56:00 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:56:00 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:56:01 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-25 21:56:01 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:56:03 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:56:03 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:56:05 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-25 21:56:05 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-25 21:56:06 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:56:32 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 21:57:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 21:58:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 21:59:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 21:59:46 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:59:47 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 21:59:48 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 21:59:49 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-25 22:00:11 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:00:12 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:00:12 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 22:00:13 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-25 22:00:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:01:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:02:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:02:55 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:02:56 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:02:58 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 22:02:59 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-25 22:03:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:04:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:05:21 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:05:22 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-25 22:05:24 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 22:05:24 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-25 22:05:31 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-25 22:05:59 INFO  JavaRushTasksProjectComponent.projectClosing(166) - ---------- Project JavaRushTasks closed ----------
+
+2019-01-25 22:05:59 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-25 22:05:59 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:36:47 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Project JavaRushTasks opened ----------
+2019-01-26 12:36:47 INFO  JavaRushTasksProjectComponent.projectOpened(70) - ---------- Version 3.25 ----------
+
+2019-01-26 12:36:47 INFO  ApacheHttpClient.createAsyncHttpClient(130) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-26 12:36:47 INFO  ApacheHttpClient.<init>(88) - ApacheHttpClient проинстанциирован успешно.
+2019-01-26 12:36:52 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:36:52 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:36:53 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 12:36:54 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 12:36:54 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 12:36:54 INFO  ApacheHttpClient.login(237) - responseCode = 200
+2019-01-26 12:36:54 INFO  ApacheHttpClient.login(268) - JSESSIONID OK
+2019-01-26 12:36:54 INFO  ApacheHttpClient.refreshUserInfo(296) - responseCode = 200
+2019-01-26 12:36:54 INFO  ApacheHttpClient.refreshUserInfo(302) - Информация о пользователе получена.
+2019-01-26 12:36:54 INFO  ApacheHttpClient.startGA(33) - GAService запущен.
+2019-01-26 12:36:54 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-26 12:37:01 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:37:01 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:37:04 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:37:04 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:37:06 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:37:12 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:37:12 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:37:15 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:37:15 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:37:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:38:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:39:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:40:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:41:26 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:41:28 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:41:29 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:41:32 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:41:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:42:06 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:42:06 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:42:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:42:57 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:43:02 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:43:03 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:43:04 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:43:05 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:43:14 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:43:14 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 12:43:16 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 12:43:22 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:43:22 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:43:26 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:43:26 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:43:26 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:43:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:44:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:45:56 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:46:16 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:46:19 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:46:21 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:46:21 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:46:38 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:46:41 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:46:43 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:46:44 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:46:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:47:08 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:47:11 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:47:12 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:47:12 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:47:13 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:47:22 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:47:22 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 12:47:39 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 12:47:43 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:47:43 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:47:45 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 12:47:45 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 12:47:46 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:47:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:48:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:49:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:50:10 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:50:12 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:50:13 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:50:13 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:50:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 12:51:31 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:51:33 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:51:34 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:51:34 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 12:51:35 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 12:51:42 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 12:51:43 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 13:05:50 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:05:51 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 13:05:53 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 13:05:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 13:05:56 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 13:05:56 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 13:05:58 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 13:05:58 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 13:05:59 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:06:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 13:07:15 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:07:16 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:07:18 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 13:07:18 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 13:07:18 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 13:07:27 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:07:27 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 13:07:31 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 13:07:34 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 13:07:34 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 13:07:37 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 13:07:37 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 13:07:37 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:07:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 13:08:53 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:08:55 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:08:56 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 13:08:56 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 13:08:56 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 13:09:55 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 13:10:01 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:10:02 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:10:03 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 13:10:04 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 13:10:04 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 13:10:12 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 13:10:13 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:14:53 ERROR ApacheHttpClient.getServerAvailabilityStatus(558) - Ошибка во время проверки доступности сервера. : java.util.concurrent.ExecutionException
+2019-01-26 20:14:53 WARN  SelectTaskButton.isServerAvailable(74) - Сервер Javarush недоступен. Подождите немного, перезапустите IntelliJ IDEA и повторите попытку.
+2019-01-26 20:17:33 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Project JavaRushTasks opened ----------
+2019-01-26 20:17:33 INFO  JavaRushTasksProjectComponent.projectOpened(70) - ---------- Version 3.25 ----------
+
+2019-01-26 20:17:33 INFO  ApacheHttpClient.createAsyncHttpClient(130) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-26 20:17:34 INFO  ApacheHttpClient.<init>(88) - ApacheHttpClient проинстанциирован успешно.
+2019-01-26 20:17:35 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:17:35 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:17:35 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 20:17:35 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 20:17:35 INFO  ApacheHttpClient.login(237) - responseCode = 200
+2019-01-26 20:17:35 INFO  ApacheHttpClient.login(268) - JSESSIONID OK
+2019-01-26 20:17:35 INFO  ApacheHttpClient.refreshUserInfo(296) - responseCode = 200
+2019-01-26 20:17:35 INFO  ApacheHttpClient.refreshUserInfo(302) - Информация о пользователе получена.
+2019-01-26 20:17:35 INFO  ApacheHttpClient.startGA(33) - GAService запущен.
+2019-01-26 20:17:35 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-26 20:17:51 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:17:51 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:17:53 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:17:56 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:17:56 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:17:57 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:17:57 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.error(124) - AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$391/1933542683@3c6fd0f2,notifier=null,catchExceptions=false,when=1548523074684] on dialog0
+java.lang.Throwable: AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$391/1933542683@3c6fd0f2,notifier=null,catchExceptions=false,when=1548523074684] on dialog0
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:134)
+	at com.intellij.openapi.application.impl.NoSwingUnderWriteAction.lambda$watchForEvents$0(NoSwingUnderWriteAction.java:36)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:374)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:188)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:239)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:264)
+	at com.javarush.plugin.panel.ConditionPanel.getConditionInnerPanel(ConditionPanel.java:64)
+	at com.javarush.plugin.panel.ConditionPanel.<init>(ConditionPanel.java:41)
+	at com.javarush.plugin.TestEditor.<init>(TestEditor.java:48)
+	at com.javarush.plugin.TestEditorProvider.createEditor(TestEditorProvider.java:66)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl4$8(FileEditorManagerImpl.java:856)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:670)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:683)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:961)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl3(FileEditorManagerImpl.java:781)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl2$4(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl2(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileWithProviders(FileEditorManagerImpl.java:694)
+	at com.intellij.openapi.fileEditor.ex.FileEditorManagerEx.openFile(FileEditorManagerEx.java:139)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener$WriteTaskTemplateAction.run(TaskInfoSelectorMouseListener.java:496)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1057)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.selectTask(TaskInfoSelectorMouseListener.java:130)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.mouseClicked(TaskInfoSelectorMouseListener.java:88)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6551)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1077)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:698)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:430)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1681)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1630)
+	at com.javarush.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:24)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:258)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:275)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:184)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:148)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:410)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(129) - IntelliJ IDEA 2018.3.3  Build #IC-183.5153.38
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(135) - JDK: 1.8.0_152-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(138) - OS: Mac OS X
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(142) - Plugin to blame: JavaRushHomeWork version: 3.25
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(149) - Last Action: TaskChooser
+2019-01-26 20:17:58 ERROR NoSwingUnderWriteAction.logErrorHeader(156) - Current Command: 
+2019-01-26 20:17:58 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:18:00 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:18:00 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:18:02 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:18:02 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:18:03 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:18:03 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:18:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:19:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:19:53 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:19:53 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:19:54 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:19:54 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:19:54 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:20:01 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:20:01 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:20:03 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:20:05 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:20:05 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:20:07 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:20:07 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:20:07 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:20:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:21:25 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:21:25 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:21:26 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:21:27 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:21:27 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:21:33 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:21:33 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:21:35 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:21:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:21:37 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:21:37 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:21:39 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:21:39 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:21:40 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:22:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:23:28 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:23:28 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:23:29 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:23:31 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:23:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:24:14 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:24:14 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:24:14 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:24:16 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:24:16 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:24:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:25:10 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:25:10 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:25:11 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:25:13 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:25:13 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:25:16 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:25:16 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:25:16 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:25:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:26:05 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:26:05 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:26:06 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:26:07 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:26:07 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:26:12 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:26:13 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:26:14 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:26:16 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:26:16 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:26:18 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:26:18 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:26:19 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:26:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:27:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:28:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:28:52 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:28:52 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:28:52 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:28:54 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:29:23 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:29:24 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:29:24 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:29:26 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:29:26 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:29:34 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:29:34 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 20:29:35 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 20:29:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:29:37 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:29:37 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:29:39 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 20:29:39 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 20:29:39 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:30:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:31:36 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 20:32:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:32:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 20:32:01 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:32:02 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 20:32:02 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:43 INFO  JavaRushTasksProjectComponent.projectClosing(166) - ---------- Project JavaRushTasks closed ----------
+
+2019-01-26 20:37:43 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:43 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:44 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:44 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:44 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 20:37:44 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:30:56 INFO  JavaRushTasksProjectComponent.projectOpened(69) - ---------- Project JavaRushTasks opened ----------
+2019-01-26 22:30:56 INFO  JavaRushTasksProjectComponent.projectOpened(70) - ---------- Version 3.25 ----------
+
+2019-01-26 22:30:56 INFO  ApacheHttpClient.createAsyncHttpClient(130) - Выбрано 1 прокси. Тип : DIRECT
+2019-01-26 22:30:56 INFO  ApacheHttpClient.<init>(88) - ApacheHttpClient проинстанциирован успешно.
+2019-01-26 22:30:56 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:30:56 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:30:57 INFO  ApacheHttpClient.login(233) - Ожидание ответа сервера.
+2019-01-26 22:30:57 INFO  ApacheHttpClient.login(237) - responseCode = 200
+2019-01-26 22:30:57 INFO  ApacheHttpClient.login(268) - JSESSIONID OK
+2019-01-26 22:30:57 INFO  ApacheHttpClient.refreshUserInfo(296) - responseCode = 200
+2019-01-26 22:30:57 INFO  ApacheHttpClient.refreshUserInfo(302) - Информация о пользователе получена.
+2019-01-26 22:30:57 INFO  ApacheHttpClient.startGA(33) - GAService запущен.
+2019-01-26 22:30:57 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2019-01-26 22:31:16 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:31:16 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:31:17 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:31:20 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:31:20 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:31:22 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:31:22 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.error(124) - AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$398/1378951357@a8b4a87,notifier=null,catchExceptions=false,when=1548531077752] on dialog1
+java.lang.Throwable: AWT events are not allowed inside write action: sun.awt.PeerEvent[INVOCATION_DEFAULT,runnable=sun.lwawt.LWWindowPeer$$Lambda$398/1378951357@a8b4a87,notifier=null,catchExceptions=false,when=1548531077752] on dialog1
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:134)
+	at com.intellij.openapi.application.impl.NoSwingUnderWriteAction.lambda$watchForEvents$0(NoSwingUnderWriteAction.java:36)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:374)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:188)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:239)
+	at javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:264)
+	at com.javarush.plugin.panel.ConditionPanel.getConditionInnerPanel(ConditionPanel.java:64)
+	at com.javarush.plugin.panel.ConditionPanel.<init>(ConditionPanel.java:41)
+	at com.javarush.plugin.TestEditor.<init>(TestEditor.java:48)
+	at com.javarush.plugin.TestEditorProvider.createEditor(TestEditorProvider.java:66)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl4$8(FileEditorManagerImpl.java:856)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:670)
+	at com.intellij.openapi.application.impl.ApplicationImpl.invokeAndWait(ApplicationImpl.java:683)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:961)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl3(FileEditorManagerImpl.java:781)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.lambda$openFileImpl2$4(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:220)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:178)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:168)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:154)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl2(FileEditorManagerImpl.java:763)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileWithProviders(FileEditorManagerImpl.java:694)
+	at com.intellij.openapi.fileEditor.ex.FileEditorManagerEx.openFile(FileEditorManagerEx.java:139)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener$WriteTaskTemplateAction.run(TaskInfoSelectorMouseListener.java:496)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1057)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.selectTask(TaskInfoSelectorMouseListener.java:130)
+	at com.javarush.plugin.TaskInfoSelectorMouseListener.mouseClicked(TaskInfoSelectorMouseListener.java:88)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6551)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1077)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:698)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:430)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1681)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1630)
+	at com.javarush.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:24)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:258)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:275)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:184)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:148)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:410)
+	at java.awt.Component.processEvent(Component.java:6313)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4903)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4725)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:719)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:664)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:363)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(129) - IntelliJ IDEA 2018.3.3  Build #IC-183.5153.38
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(135) - JDK: 1.8.0_152-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(138) - OS: Mac OS X
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(142) - Plugin to blame: JavaRushHomeWork version: 3.25
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(149) - Last Action: TaskChooser
+2019-01-26 22:31:22 ERROR NoSwingUnderWriteAction.logErrorHeader(156) - Current Command: 
+2019-01-26 22:31:22 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:31:24 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:31:24 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:31:26 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:31:26 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:31:27 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:31:28 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:31:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:32:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:33:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:34:10 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:34:10 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:34:10 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:34:11 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:34:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:35:22 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:35:22 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:35:22 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:35:24 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:35:24 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:36:34 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:36:35 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:36:36 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:36:38 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:36:38 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:36:39 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:36:39 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:36:39 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:36:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:37:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:38:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:39:28 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:39:29 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:39:29 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:39:30 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:39:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:40:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:41:30 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:41:30 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:41:31 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:41:31 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:41:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:42:48 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:42:48 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:42:48 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:42:49 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:42:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:43:32 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:43:33 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:43:33 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:43:34 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:43:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:44:29 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:44:29 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:44:29 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:44:30 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:44:30 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:44:38 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:44:38 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:44:39 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:44:41 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:44:41 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:44:43 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:44:43 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:44:43 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:44:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:45:37 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:45:37 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:45:38 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:45:38 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:45:38 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:45:58 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:45:58 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:46:00 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:46:02 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:46:02 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:46:04 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:46:04 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:46:04 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:46:25 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:46:26 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:46:26 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:46:27 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:46:27 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:46:32 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:46:33 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:46:33 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:46:36 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:46:36 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:46:38 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:46:38 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:46:38 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:46:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:47:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:00 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:00 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:47:01 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:47:02 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:47:15 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:15 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:47:16 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:47:18 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:47:18 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:47:20 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:47:20 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:47:20 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:41 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:42 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:42 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:47:45 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:47:45 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:47:50 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:50 INFO  ApacheHttpClient.getFilteredTasks(329) - responseCode = 200
+2019-01-26 22:47:52 INFO  ApacheHttpClient.getTaskTemplateInfo(346) - responseCode = 200
+2019-01-26 22:47:54 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:47:54 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:47:56 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:47:56 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:47:56 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:47:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
+2019-01-26 22:48:15 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:48:16 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:48:16 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:48:17 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2019-01-26 22:48:17 INFO  ApacheHttpClient.getTask(477) - responseCode = 200
+2019-01-26 22:50:53 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:50:53 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:50:55 INFO  ApacheHttpClient.testConnection(188) - responseCode = 200
+2019-01-26 22:50:55 INFO  ApacheHttpClient.testConnection(203) - result = true
+2019-01-26 22:50:55 INFO  ApacheHttpClient.getWebResourceAsStream(492) - responseCode = 200
+2019-01-26 22:50:57 INFO  ApacheHttpClient.sendEvent(525) - responseCode = 200
